@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* (
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+)
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background: #000;
+	background-position: 0 1000px;
+	font-family: 'Mochiy', sans-serif;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 3rem;
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.name-1 {
+	color: #fff;
+	font-family: 'Mochiy', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.coming-soon {
+	color: #fff;
+	font-family: 'Mochiy', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.coming-soon1 {
+	color: #fff;
+	font-family: 'Mochiy', sans-serif;
+	font-size: 23px;
+	text-align: center;
+}
+
+.descrip {
+	color: #fff;
+	font-family: 'Mochiy', sans-serif;
+	font-size: 23px;
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 15px 4rem;
+	background: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: background 0.5s;
+	color: #000;
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 4rem;
+	background: #4768ed;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: background 0.5s;
+	color: #fff;
+}
+
+.tab {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 15px;
+    transition: 0.1s;
+    z-index: 100;
+}
+
+#header {
+    padding: 25px 25px;
+	color: #fff;
+}
+
+.header-tabs {
+    margin-top: 15px;
+    float: right;
+	color: #fff;
+}
+
+footer {
+	position: fixed;  
+	left: 10px;  
+	bottom: 5px;  
+	right: 10px;   
+	width: 95%;
+	color: #fff;
+	text-align: center;
+}
+
+.btn:hover {
+	background: #c2c2c2;
+}
+
+.button:hover {
+	background: #0d36db;
+}
